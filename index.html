@@ -57,7 +57,7 @@
         </button>
         <button class="desktop btn-search">Rechercher</button>
       </div>
-      <div>
+      <div class="filtres">
         <h2>Filtres</h2>
         <div>
           <div class="filter-container">
@@ -78,7 +78,6 @@
           </div>
         </div>
       </div>
-
       <div>
         <p>
           <span class="fas fa-info info-icon"></span> Plus de 500 logements sont
@@ -89,18 +88,18 @@
 
     <div class="flex-container">
       <section id="popular">
-        <div class="section-title">
+        <div class="inline-flex">
           <h2>Les plus populaires</h2>
           <span class="fas fa-chart-line chart-icon"></span>
         </div>
-        <div class="result-container">
+        <div class="popular-results">
           <div class="result-holder horizontal">
             <img
               src="./resources//images/hebergements/Le-soleil-du-matin.jpg"
               alt="Hôtel Le soleil du matin"
             />
             <div class="result-description">
-              <div>
+              <div class="result-text">
                 <h3>Hôtel Le soleil du matin</h3>
                 <p>Nuit à partir de <span>128€</span></p>
               </div>
@@ -119,7 +118,7 @@
               alt="Chambres d'hôtes Au coeur de l'eau"
             />
             <div class="result-description">
-              <div>
+              <div class="result-text">
                 <h3>Au coeur de l'eau Chambres d'hôtes</h3>
                 <p>Nuit à partir de <span>71€</span></p>
               </div>
@@ -138,7 +137,7 @@
               alt="Hôtel Tout bleu et Blanc"
             />
             <div class="result-description">
-              <div>
+              <div class="result-text">
                 <h3>Hôtel Tout bleu et Blanc</h3>
                 <p>Nuit à partir de <span>68€</span></p>
               </div>
@@ -156,7 +155,7 @@
 
       <section id="hebergements">
         <h2>Hébergements à Marseille</h2>
-        <div class="result-container">
+        <div class="all-results">
           <div class="result-holder">
             <img
               src="./resources//images/hebergements/La-cannebiere.jpg"
@@ -260,41 +259,41 @@
             </div>
           </div>
         </div>
-        <h3>Afficher plus</h3>
+        <h4>Afficher plus</h4>
       </section>
     </div>
 
     <section id="activites">
       <h2>Activités à Marseille</h2>
-      <div class="activities-container"></div>
-      <div class="activity-holder">
-        <img src="./resources//images/activites/vieux-port.jpg" />
-        <h3 class="activity-title">Vieux Port</h3>
-      </div>
-      <div class="activities-container"></div>
-      <div class="activity-holder">
-        <img src="./resources//images/activites/pomegues.jpg" />
-        <h3 class="activity-title">Fort de Pomègues</h3>
-      </div>
-      <div class="activities-container"></div>
-      <div class="activity-holder">
-        <img src="./resources//images/activites/frioul.jpg" />
-        <h3 class="activity-title">Île du Frioul</h3>
-      </div>
-      <div class="activities-container"></div>
-      <div class="activity-holder">
-        <img src="./resources//images/activites/calanques.jpg" />
-        <h3 class="activity-title">Parc National des Calanques</h3>
-      </div>
-      <div class="activities-container"></div>
-      <div class="activity-holder">
-        <img src="./resources//images/activites/la-garde.jpg" />
-        <h3 class="activity-title">Notre-Dame-de-la-Garde</h3>
-      </div>
-      <div class="activities-container"></div>
-      <div class="activity-holder">
-        <img src="./resources//images/activites/parc-longchamp.jpg" />
-        <h3 class="activity-title">Parc Longchamp</h3>
+      <div class="activities-container">
+        <div class="activity-holder large">
+          <img src="./resources//images/activites/vieux-port.jpg" />
+          <h3 class="activity-title">Vieux Port</h3>
+        </div>
+        <div class="wrap">
+          <div class="activity-holder">
+            <img src="./resources//images/activites/pomegues.jpg" />
+            <h3 class="activity-title">Fort de Pomègues</h3>
+          </div>
+          <div class="activity-holder">
+            <img src="./resources//images/activites/frioul.jpg" />
+            <h3 class="activity-title">Île du Frioul</h3>
+          </div>
+        </div>
+        <div class="activity-holder large">
+          <img src="./resources//images/activites/calanques.jpg" />
+          <h3 class="activity-title">Parc National des Calanques</h3>
+        </div>
+        <div class="wrap">
+          <div class="activity-holder">
+            <img src="./resources//images/activites/la-garde.jpg" />
+            <h3 class="activity-title">Notre-Dame-de-la-Garde</h3>
+          </div>
+          <div class="activity-holder">
+            <img src="./resources//images/activites/parc-longchamp.jpg" />
+            <h3 class="activity-title">Parc Longchamp</h3>
+          </div>
+        </div>
       </div>
     </section>
     <footer>

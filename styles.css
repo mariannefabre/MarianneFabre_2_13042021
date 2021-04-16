@@ -93,6 +93,7 @@ p {
 }
 input {
   border: none;
+  outline: none;
 }
 
 /* UTILITIES */
@@ -180,7 +181,6 @@ input {
     width: 450px;
   }
 }
-
 .nav-item a:hover,
 .nav-item a:focus,
 .nav-item a:active {
@@ -220,6 +220,10 @@ a:focus::before {
   max-width: 340px;
   margin: 25px 0;
 }
+.search-bar:hover {
+  box-shadow: 1px 1px 2px 3px var(--color-light-gray);
+}
+
 #searchTerm {
   padding: 13px;
   margin: 0 -4px;
@@ -300,7 +304,6 @@ a:focus::before {
     margin: 0 20px 0 10px;
   }
 }
-
 .chart-icon {
   font-size: 22px;
 }

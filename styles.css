@@ -448,9 +448,11 @@ a:focus::before {
     margin: auto 0;
     padding: 20px 20px;
   }
-  .activity-holder {
+  .activity-holder,
+  .wrap {
     margin: 0 10px;
-    height: fit-content;
+    height: auto;
+    width: -moz-available;
   }
   .holder-xl img {
     height: 400px;
